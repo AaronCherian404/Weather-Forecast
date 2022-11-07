@@ -6,7 +6,7 @@ let description = document.querySelector('.desc');
 const weatherdisp = document.querySelector('.displayWeather');
 let city = document.querySelector('.city');
 button.addEventListener('click', function () {
-  // Fection data from open weather API
+  // Fecting data from open weather API
   fetch(
     `https://api.openweathermap.org/data/2.5/weather?q=${inputtedvalue.value}&units=metric&appid=108dd9a67c96f23039937fe6f3c91963`
   )
